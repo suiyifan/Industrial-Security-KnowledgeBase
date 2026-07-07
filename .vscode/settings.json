@@ -1,0 +1,5 @@
+{
+  "files.defaultLanguage": "markdown",
+  "markdown.validate.enabled": true,
+  "editor.wordWrap": "on"
+}

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lab captures and large local files
+*.pcap
+*.pcapng
+*.zip
+*.7z
+
+# Local notes
+.env
