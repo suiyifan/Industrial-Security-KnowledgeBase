@@ -23,8 +23,17 @@
 10. [功能安全、SIS 与安全联锁](./Safety_SIS_and_Interlock.md)
 11. [自动化系统攻击面](./Automation_Attack_Surface.md)
 12. [自动化知识如何服务工控安全](./Automation_for_ICS_Security.md)
-13. [面试问答](./Interview_QA.md)
-14. [术语表](./Glossary.md)
+13. [现场项目视角：一次工控安全评估怎么展开](./Field_Project_View.md)
+14. [点表、变量与工程资料深挖](./Point_Table_and_Tags_Deep_Dive.md)
+15. [PLC 工程工作流深挖](./PLC_Engineering_Workflow.md)
+16. [控制逻辑阅读方法](./Control_Logic_Reading.md)
+17. [SCADA 项目资料与配置深挖](./SCADA_Project_Artifacts.md)
+18. [DCS 运行维护与安全关注点](./DCS_Operations_Deep_Dive.md)
+19. [资产访谈与现场调研问题清单](./Asset_Interview_Checklist.md)
+20. [工控风险案例化表达](./Risk_Case_Studies.md)
+21. [面试项目表达素材](./Project_Style_Interview_Stories.md)
+22. [面试问答](./Interview_QA.md)
+23. [术语表](./Glossary.md)
 
 ## 本章完成标准
 
@@ -37,6 +46,9 @@
 - 理解工程下载、变量点表、报警、趋势、历史数据库等概念。
 - 从安全角度分析工程站、HMI、PLC、工业网关的攻击面。
 - 把一个漏洞的影响翻译成工业生产影响。
+- 能说出一次工控安全评估会看哪些资料、问哪些问题、检查哪些配置。
+- 能用点表、控制逻辑、报警、趋势、工程下载等细节解释漏洞影响。
+- 面试时能把“我学过概念”升级成“我知道项目现场怎么分析”。
 
 ## 面向岗位的重点
 
@@ -47,3 +59,13 @@
 | 安全测试、评估、审计 | 能识别关键资产、关键链路、关键风险 |
 | 安全分析报告、调研报告 | 能把技术漏洞写成工业风险 |
 | 面向电力、石油、石化、冶金、水处理等客户 | 理解典型行业场景差异 |
+
+## 深入学习建议
+
+如果目标是面试，不要只背 PLC、DCS、SCADA 的定义。更像项目经历的表达来自这些细节：
+
+- 你知道工程站里可能有什么工程文件、点表、通信配置和下载记录。
+- 你知道 HMI 画面背后绑定变量点，按钮可能对应写变量或脚本动作。
+- 你知道 PLC 的 Force、Run/Stop、上传/下载、在线监控都是高风险动作。
+- 你知道报警、趋势、历史库不是装饰，而是事故追溯和异常判断证据。
+- 你知道评估时要先问清楚资产、网络区域、远程运维、工程变更、备份恢复。
