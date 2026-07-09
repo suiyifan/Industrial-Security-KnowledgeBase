@@ -12,7 +12,7 @@
 
 ## 导航索引
 
-- 上一篇：[Web 安全基础](../06_Web_Security/Web_Vulnerability_Basics.md)
+- 上一篇：[06 章术语表](../06_Web_Security/Glossary.md)
 - 本章目录：[07_Reverse_Engineering](README.md)
 - 下一篇：[逆向工程基础](Reverse_Engineering_Basics.md)
 
