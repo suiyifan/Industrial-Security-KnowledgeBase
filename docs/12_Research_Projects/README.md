@@ -12,7 +12,7 @@
 
 ## 导航索引
 
-- 上一篇：[AI 辅助漏洞研究](../11_AI_for_Security/AI_Assisted_Vulnerability_Research.md)
+- 上一篇：[术语表](../11_AI_for_Security/Glossary.md)
 - 本章目录：[12_Research_Projects](README.md)
 - 下一篇：[作品集计划](Portfolio_Plan.md)
 
