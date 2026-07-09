@@ -1,4 +1,4 @@
-# 02 章术语表
+﻿# 02 章术语表
 
 ## PLC
 
@@ -99,3 +99,14 @@ Control Output，控制输出。
 ## Force
 
 强制变量，临时强制输入、输出或内部变量到指定状态。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[02 章面试问答](Interview_QA.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[02 章阅读路线与复习问题](Reading_Guide.md)
+

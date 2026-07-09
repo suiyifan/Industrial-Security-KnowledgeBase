@@ -18,6 +18,36 @@
 4. 每做一个实验，用 `templates/Lab_Report_Template.md` 固化过程和截图。
 5. 每次面试、复盘、提问后，把新增结论写入 `memory/` 或对应章节。
 
+## Writing Standard
+
+后续新增知识点默认遵循 seed 文件规范：
+
+```text
+控制理论 -> 工程实现 -> 协议/数据流 -> 安全风险 -> 面试表达 -> 实操验证
+```
+
+如果主题不直接涉及控制理论，则使用：
+
+```text
+原理解释 -> 工程实现 -> 数据流/控制流/状态流 -> 安全风险 -> 面试表达 -> 实操建议
+```
+
+详细规范见：
+
+- [AGENTS.md](./AGENTS.md)
+- [Seed 知识点归类与整合计划](./docs/00_Project/Seed_Knowledge_Classification.md)
+- [工控安全研究员知识点汇总_seed.md](./工控安全研究员知识点汇总_seed.md)
+
+## Navigation
+
+`docs/` 下的知识点文档底部都带有导航索引：
+
+- 上一篇
+- 本章目录
+- 下一篇
+
+这样可以按阅读顺序连续学习，不需要每次回到首页重新点击。
+
 ## Directory Map
 
 - `docs/00_Project`: 岗位画像、学习路线、能力矩阵、更新规则

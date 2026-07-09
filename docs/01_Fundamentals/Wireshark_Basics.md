@@ -1,4 +1,4 @@
-# Wireshark 抓包基础
+﻿# Wireshark 抓包基础
 
 ## 1. Wireshark 是什么
 
@@ -249,3 +249,14 @@ tcp.flags.syn == 1
 可以这样说：
 
 > 我会用 Wireshark 辅助协议分析。通常先根据 IP 和端口过滤流量，再确认 TCP 连接过程，最后查看应用层字段。比如分析 Modbus TCP 时，我会过滤 `tcp.port == 502`，观察功能码、Unit ID 和寄存器读写行为。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[网络基础](Networking_Basics.md)
+- 本章目录：[01_Fundamentals](README.md)
+- 下一篇：[01 章实践任务清单](Practice_Checklist.md)
+

@@ -1,4 +1,4 @@
-# 功能安全、SIS 与安全联锁
+﻿# 功能安全、SIS 与安全联锁
 
 ## 1. 为什么要学安全联锁
 
@@ -88,3 +88,14 @@ SIL 是 Safety Integrity Level，安全完整性等级。
 可以这样说：
 
 > 我理解工控系统中报警、联锁和 SIS 的安全意义不同。报警主要提醒操作员，联锁和 SIS 会在危险条件下自动执行保护动作。做工控安全测试时，涉及 SIS、ESD 或关键联锁的部分必须非常谨慎，优先用离线分析和仿真验证，避免影响生产安全。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[工业行业场景](Industrial_Scenarios.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[自动化系统攻击面](Automation_Attack_Surface.md)
+

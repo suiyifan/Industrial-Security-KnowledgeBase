@@ -1,4 +1,4 @@
-# 学习路线：11 个 Sprint
+﻿# 学习路线：11 个 Sprint
 
 每个 Sprint 建议 1 周。如果时间紧，可以把 Sprint 2、3、4、6 作为面试优先路线，把 Sprint 7、8、9、10 作为能力拔高路线。
 
@@ -209,3 +209,14 @@
 - GitHub README 优化。
 - `docs/13_Interview/Interview_QA.md`
 - `docs/13_Interview/Self_Introduction.md`
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[岗位画像：工控安全分析](Job_Profile.md)
+- 本章目录：[00_Project](README.md)
+- 下一篇：[能力矩阵](Capability_Matrix.md)
+

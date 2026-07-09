@@ -1,4 +1,4 @@
-# DCS 系统
+﻿# DCS 系统
 
 ## 1. DCS 是什么
 
@@ -105,3 +105,14 @@ DCS 通常有不同角色：
 可以这样说：
 
 > DCS 更常见于石油化工、电力、冶金、水处理等连续过程场景，通常包含控制站、操作员站、工程师站和历史站。相比单个 PLC，DCS 更强调多回路、集中监控和工程管理。安全分析时，我会关注工程师权限、控制策略下载、报警和历史数据完整性，以及控制网络横向移动风险。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[PLC Runtime、扫描周期与内存模型深挖](PLC_Runtime_Memory_Model.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[DCS 冗余与无扰切换](DCS_Redundancy_and_Bumpless_Transfer.md)
+

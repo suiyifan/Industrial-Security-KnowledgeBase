@@ -1,4 +1,4 @@
-# SCADA、HMI 与组态软件
+﻿# SCADA、HMI 与组态软件
 
 ## 1. SCADA 是什么
 
@@ -133,3 +133,14 @@ HMI 画面通常包含：
 可以这样说：
 
 > SCADA 更偏监控和数据采集，HMI 是操作员与设备交互的界面，组态软件用于配置画面、变量、报警、趋势和通信驱动。安全分析时，我会关注 HMI 是否能下发控制命令、组态文件是否泄露、报警和趋势是否可信，以及 SCADA Server 是否成为控制网络中的高价值目标。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[DCS 冗余与无扰切换](DCS_Redundancy_and_Bumpless_Transfer.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[工程站、操作员站与历史数据库](Engineering_Operator_Historian.md)
+

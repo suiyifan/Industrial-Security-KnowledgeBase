@@ -1,4 +1,4 @@
-# 分区分域与安全域设计
+﻿# 分区分域与安全域设计
 
 ## 1. 什么是分区分域
 
@@ -94,3 +94,14 @@ SCADA Server -> PLC: Modbus TCP 502, read/write only if business required
 ## 8. 面试表达
 
 > 分区分域不是简单划 VLAN，而是基于资产功能和安全需求定义区域，再用受控通信管道连接区域。评估时我会关注区域之间是否默认拒绝、通信是否业务必要、端口是否最小开放，以及是否存在办公网直达工程站或控制器的路径。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[Purdue 模型与工控分层](Purdue_Model_and_Zones.md)
+- 本章目录：[03_Industrial_Network](README.md)
+- 下一篇：[工业 DMZ 深入理解](Industrial_DMZ.md)
+

@@ -1,4 +1,4 @@
-# 工业交换机、路由与 VLAN
+﻿# 工业交换机、路由与 VLAN
 
 ## 1. 工业交换机是什么
 
@@ -97,3 +97,14 @@ Trunk 端口：
 ## 8. 面试表达
 
 > 工业交换机不仅是连线设备，也影响安全域和通信路径。评估时我会看 VLAN 划分、Trunk 范围、未使用端口、管理口访问控制、默认密码、SNMP 配置和路由路径。尤其要确认 VLAN 之间是否通过 ACL 或防火墙做了访问控制，避免逻辑分区变成形式化分区。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[通信矩阵与数据流分析](Communication_Matrix.md)
+- 本章目录：[03_Industrial_Network](README.md)
+- 下一篇：[工业防火墙与访问控制](Industrial_Firewall_ACL.md)
+

@@ -1,4 +1,4 @@
-# 01 章术语表
+﻿# 01 章术语表
 
 ## Git
 
@@ -99,3 +99,14 @@ Wireshark 抓包过滤器，用于抓包前决定只捕获哪些流量。
 ## IEC 104
 
 电力行业常见远动通信协议，常见端口为 TCP 2404。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[01 章实践任务清单](Practice_Checklist.md)
+- 本章目录：[01_Fundamentals](README.md)
+- 下一篇：[02 Automation：工业自动化与控制系统](../02_Automation/README.md)
+

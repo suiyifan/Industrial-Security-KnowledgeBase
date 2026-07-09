@@ -1,4 +1,4 @@
-# 作品集计划
+﻿# 作品集计划
 
 ## Project 1：Modbus TCP 协议解析与探测工具
 
@@ -38,3 +38,14 @@
 - 风险点
 - 改进建议
 - 与 IEC 62443 的对应关系
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[12 Research Projects：研究项目与作品集](README.md)
+- 本章目录：[12_Research_Projects](README.md)
+- 下一篇：[13 Interview：面试准备](../13_Interview/README.md)
+

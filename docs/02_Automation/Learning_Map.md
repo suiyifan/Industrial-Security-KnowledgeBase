@@ -1,4 +1,4 @@
-# 02 章学习地图
+﻿# 02 章学习地图
 
 ## 1. 本章要建立的核心模型
 
@@ -78,3 +78,14 @@
 - 一组面试问答。
 
 目前你可以先读，不急着做实践。后续有时间再把图和实验补上。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[02 Automation：工业自动化与控制系统](README.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[工业自动化概览](Industrial_Automation_Overview.md)
+

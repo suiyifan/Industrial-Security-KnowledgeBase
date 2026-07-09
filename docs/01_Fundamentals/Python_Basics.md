@@ -1,4 +1,4 @@
-# Python 基础
+﻿# Python 基础
 
 ## 1. Python 在安全岗位中的作用
 
@@ -222,3 +222,14 @@ Modbus TCP 运行在 TCP 之上，默认端口 502。后续你用 Python 构造 
 可以这样说：
 
 > 我用 Python 作为安全工具开发的主要语言，重点掌握文件处理、命令行参数、异常处理和 Socket 编程。后续做工控协议研究时，可以用 Python 构造协议报文、探测资产、解析响应，并把结果整理成报告。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[Linux 基础](Linux_Basics.md)
+- 本章目录：[01_Fundamentals](README.md)
+- 下一篇：[网络基础](Networking_Basics.md)
+

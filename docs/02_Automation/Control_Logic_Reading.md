@@ -1,4 +1,4 @@
-# 控制逻辑阅读方法
+﻿# 控制逻辑阅读方法
 
 安全人员不一定要像自动化工程师一样写完整 PLC 程序，但要能读懂关键逻辑，尤其是启停、联锁、报警、模式和通信相关逻辑。
 
@@ -146,3 +146,14 @@ IF tank_level > high_high_limit THEN alarm_high_high = true
 ## 9. 面试可讲版本
 
 > 我阅读控制逻辑时会先找设备启停、联锁、报警、模式切换和通信处理。比如泵控制逻辑里，我会关注启动允许、停止条件、液位反馈、故障反馈和远程模式。如果漏洞能修改启动命令、液位值或联锁旁路变量，就可能影响泵的真实运行状态。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[PLC 工程工作流深挖](PLC_Engineering_Workflow.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[SCADA 项目资料与配置深挖](SCADA_Project_Artifacts.md)
+

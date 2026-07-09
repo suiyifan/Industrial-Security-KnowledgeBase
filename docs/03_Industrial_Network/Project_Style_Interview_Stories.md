@@ -1,4 +1,4 @@
-# 面试项目表达素材
+﻿# 面试项目表达素材
 
 ## 1. 30 秒版本：我怎么理解工业网络安全
 
@@ -23,3 +23,14 @@
 ## 6. 面试官追问：如何体现你不是只会背 Purdue 模型
 
 > 我会把 Purdue 模型落到通信路径和访问控制上。比如 Level 4 到 Level 2 是否直连，Level 3.5 的 DMZ 是否全通到控制网，Level 2 的 HMI 是否能直接访问所有 PLC，Level 1 控制器是否缺少访问控制。分层模型只是起点，真正评估要看跨层通信是否必要和受控。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[工业网络风险案例化表达](Network_Risk_Case_Studies.md)
+- 本章目录：[03_Industrial_Network](README.md)
+- 下一篇：[03 章面试问答](Interview_QA.md)
+

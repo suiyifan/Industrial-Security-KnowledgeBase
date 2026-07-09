@@ -1,4 +1,8 @@
-# 面试问答库
+﻿# 面试问答库
+
+补充材料：
+
+- [Seed 风格面试回答](./Seed_Based_Interview_Answers.md)
 
 ## 1. 为什么选择工控安全？
 
@@ -23,3 +27,14 @@
 参考回答：
 
 我会先从 Modbus TCP 这种公开、结构清晰的协议入手，理解 MBAP Header、功能码和寄存器读写，再用 Wireshark 抓包分析真实报文，最后用 Python Socket 或 Scapy 构造请求和解析响应。之后再扩展到 S7、OPC UA、IEC 104 等更贴近实际行业场景的协议。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[13 Interview：面试准备](README.md)
+- 本章目录：[13_Interview](README.md)
+- 下一篇：[Seed 风格面试回答](Seed_Based_Interview_Answers.md)
+

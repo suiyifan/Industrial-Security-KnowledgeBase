@@ -1,4 +1,4 @@
-# Git 与 GitHub 基础
+﻿# Git 与 GitHub 基础
 
 ## 1. Git 是什么
 
@@ -158,3 +158,14 @@ git log --oneline
 可以这样说：
 
 > 我用 Git 管理自己的工控安全知识库，把每个阶段的学习笔记、实验报告和工具脚本都做版本记录。这样既方便复盘，也能让面试官看到我的学习路径和工程习惯。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[01 章学习地图：计算机与安全基础](Learning_Map.md)
+- 本章目录：[01_Fundamentals](README.md)
+- 下一篇：[Linux 基础](Linux_Basics.md)
+

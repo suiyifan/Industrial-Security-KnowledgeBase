@@ -1,4 +1,4 @@
-# 01 Fundamentals：计算机与安全基础
+﻿# 01 Fundamentals：计算机与安全基础
 
 本章用于补齐工控安全研究需要的计算机底座。学习重点不是背概念，而是建立“能写工具、能看系统、能读网络流量”的基础能力。
 
@@ -43,3 +43,14 @@
 3. 它和工控安全岗位有什么关系？
 
 如果三个问题都能回答，这个知识点才算真正进入你的能力体系。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[Seed 知识点归类与整合计划](../00_Project/Seed_Knowledge_Classification.md)
+- 本章目录：[01_Fundamentals](README.md)
+- 下一篇：[01 章学习地图：计算机与安全基础](Learning_Map.md)
+

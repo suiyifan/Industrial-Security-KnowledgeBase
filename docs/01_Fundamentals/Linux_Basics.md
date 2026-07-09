@@ -1,4 +1,4 @@
-# Linux 基础
+﻿# Linux 基础
 
 ## 1. Linux 是什么
 
@@ -260,3 +260,14 @@ ls -l hello.sh
 可以这样说：
 
 > 我掌握 Linux 的文件、权限、进程、端口和日志基础，能够在安全测试或漏洞复现时完成环境排查。例如我会用 `ss -tulnp` 查看服务监听，用 `tail -f` 跟踪日志，用 `chmod` 和 `sudo` 理解权限变化。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[Git 与 GitHub 基础](Git_and_GitHub.md)
+- 本章目录：[01_Fundamentals](README.md)
+- 下一篇：[Python 基础](Python_Basics.md)
+
