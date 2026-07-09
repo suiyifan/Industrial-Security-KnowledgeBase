@@ -114,7 +114,7 @@ Python 修改 SP
 
 ## 导航索引
 
-- 上一篇：[10 Tool Development](README.md)
+- 上一篇：[10 Tool Development：安全工具开发](README.md)
 - 本章目录：[10_Tool_Development](README.md)
-- 下一篇：[11 AI for Security：AI 辅助安全研究](../11_AI_for_Security/README.md)
+- 下一篇：[Python Socket 工具开发](Python_Socket_Tooling.md)
 
