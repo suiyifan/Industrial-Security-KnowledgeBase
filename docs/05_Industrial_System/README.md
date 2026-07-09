@@ -21,7 +21,7 @@
 
 ## 导航索引
 
-- 上一篇：[Modbus 深挖：寄存器模型、抓包与安全分析](../04_Industrial_Protocol/Modbus_Deep_Dive.md)
+- 上一篇：[04 章术语表](../04_Industrial_Protocol/Glossary.md)
 - 本章目录：[05_Industrial_System](README.md)
 - 下一篇：[06 Web Security：Web 安全基础](../06_Web_Security/README.md)
 

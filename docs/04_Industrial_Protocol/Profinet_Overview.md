@@ -1,0 +1,70 @@
+﻿# Profinet：工业以太网实时通信
+
+## 1. 原理解释
+
+Profinet 是工业以太网协议，常见于西门子生态和离散制造场景。它关注实时 I/O、设备诊断、工程配置和网络同步。
+
+它不是简单 TCP 应用协议，而是面向现场设备实时通信。
+
+## 2. 工程实现
+
+典型场景：
+
+```text
+PLC Controller
+  -> Profinet
+  -> IO Device / Remote IO / Drive
+  -> 传感器 / 执行器
+```
+
+Profinet 中常见角色：
+
+- Controller：控制器，如 PLC。
+- Device：现场设备或远程 I/O。
+- Supervisor：工程和诊断工具。
+
+## 3. 数据流
+
+Profinet 包含：
+
+- 周期实时数据：控制和 I/O 状态。
+- 非周期数据：诊断、参数、配置。
+- 设备发现和命名。
+- 工程配置和拓扑信息。
+
+周期实时数据对生产影响更直接。
+
+## 4. 安全风险
+
+- 设备名称或配置被篡改。
+- 非授权工程工具进行设备发现。
+- 远程 I/O 数据被干扰。
+- 拓扑和设备信息泄露。
+- 网络风暴或异常流量影响实时通信。
+
+## 5. 面试表达
+
+### 60 分答案
+
+> Profinet 是工业以太网协议，常用于 PLC 与远程 I/O、驱动和现场设备之间的实时通信。
+
+### 90 分答案
+
+> Profinet 的安全分析要关注实时 I/O 数据、设备发现、设备命名、诊断和工程配置。相比普通 TCP 协议，它更贴近现场控制。如果攻击影响周期 I/O 或设备配置，可能导致 PLC 看到错误输入或输出无法正确作用到现场。
+
+## 6. 实操建议
+
+- 先理解 Controller / Device / Supervisor。
+- 用 Wireshark 学习 Profinet DCP、实时数据、诊断报文。
+- 记录设备发现、命名和配置流程。
+
+<!-- NAVIGATION_INDEX -->
+
+---
+
+## 导航索引
+
+- 上一篇：[IEC 60870-5-104：电力远动协议](IEC104_Deep_Dive.md)
+- 本章目录：[04_Industrial_Protocol](README.md)
+- 下一篇：[EtherNet/IP 与 CIP 对象模型](EtherNetIP_CIP_Overview.md)
+

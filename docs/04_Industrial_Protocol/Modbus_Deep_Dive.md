@@ -179,5 +179,5 @@ Value: 80
 
 - 上一篇：[Modbus TCP](Modbus_TCP.md)
 - 本章目录：[04_Industrial_Protocol](README.md)
-- 下一篇：[05 Industrial System](../05_Industrial_System/README.md)
+- 下一篇：[S7Comm 与西门子通信](S7Comm_Deep_Dive.md)
 
