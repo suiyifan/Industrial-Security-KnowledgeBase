@@ -47,5 +47,5 @@
 
 - 上一篇：[12 Research Projects：研究项目与作品集](README.md)
 - 本章目录：[12_Research_Projects](README.md)
-- 下一篇：[13 Interview：面试准备](../13_Interview/README.md)
+- 下一篇：[项目：OpenPLC + Modbus + PID 实验室](Project_OpenPLC_Modbus_PID_Lab.md)
 

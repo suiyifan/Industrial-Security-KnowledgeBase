@@ -13,7 +13,7 @@
 
 ## 导航索引
 
-- 上一篇：[作品集计划](../12_Research_Projects/Portfolio_Plan.md)
+- 上一篇：[面试问答](../12_Research_Projects/Interview_QA.md)
 - 本章目录：[13_Interview](README.md)
 - 下一篇：[面试问答库](Interview_QA.md)
 
