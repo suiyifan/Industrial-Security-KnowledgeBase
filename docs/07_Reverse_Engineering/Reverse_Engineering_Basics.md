@@ -30,7 +30,7 @@ JD 要求熟悉 WinDbg、OD、IDA 等逆向、反汇编工具与手段。
 
 ## 导航索引
 
-- 上一篇：[07 Reverse Engineering：逆向工程]()
-- 本章目录：[07_Reverse_Engineering]()
-- 下一篇：[08 Vulnerability Research：漏洞研究]()
+- 上一篇：[07 Reverse Engineering：逆向工程](README.md)
+- 本章目录：[07_Reverse_Engineering](README.md)
+- 下一篇：[08 Vulnerability Research：漏洞研究](../08_Vulnerability_Research/README.md)
 

@@ -93,7 +93,7 @@
 
 ## 导航索引
 
-- 上一篇：[DCS 运行维护与安全关注点]()
-- 本章目录：[02_Automation]()
-- 下一篇：[工控风险案例化表达]()
+- 上一篇：[DCS 运行维护与安全关注点](DCS_Operations_Deep_Dive.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[工控风险案例化表达](Risk_Case_Studies.md)
 

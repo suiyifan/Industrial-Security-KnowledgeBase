@@ -267,7 +267,7 @@ ls -l hello.sh
 
 ## 导航索引
 
-- 上一篇：[Git 与 GitHub 基础]()
-- 本章目录：[01_Fundamentals]()
-- 下一篇：[Python 基础]()
+- 上一篇：[Git 与 GitHub 基础](Git_and_GitHub.md)
+- 本章目录：[01_Fundamentals](README.md)
+- 下一篇：[Python 基础](Python_Basics.md)
 

@@ -60,7 +60,7 @@ memory/Weekly_Review_YYYY-MM-DD.md
 
 ## 导航索引
 
-- 上一篇：[能力矩阵]()
-- 本章目录：[00_Project]()
-- 下一篇：[Seed 知识点归类与整合计划]()
+- 上一篇：[能力矩阵](Capability_Matrix.md)
+- 本章目录：[00_Project](README.md)
+- 下一篇：[Seed 知识点归类与整合计划](Seed_Knowledge_Classification.md)
 

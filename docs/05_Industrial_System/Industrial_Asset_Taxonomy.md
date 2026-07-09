@@ -57,7 +57,7 @@
 
 ## 导航索引
 
-- 上一篇：[05 Industrial System：工业系统与关键资产]()
-- 本章目录：[05_Industrial_System]()
-- 下一篇：[工程站与工程软件安全]()
+- 上一篇：[05 Industrial System：工业系统与关键资产](README.md)
+- 本章目录：[05_Industrial_System](README.md)
+- 下一篇：[工程站与工程软件安全](Engineering_Workstation_Security.md)
 

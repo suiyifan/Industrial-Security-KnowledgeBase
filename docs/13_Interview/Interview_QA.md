@@ -34,7 +34,7 @@
 
 ## 导航索引
 
-- 上一篇：[13 Interview：面试准备]()
-- 本章目录：[13_Interview]()
-- 下一篇：[Seed 风格面试回答]()
+- 上一篇：[13 Interview：面试准备](README.md)
+- 本章目录：[13_Interview](README.md)
+- 下一篇：[Seed 风格面试回答](Seed_Based_Interview_Answers.md)
 

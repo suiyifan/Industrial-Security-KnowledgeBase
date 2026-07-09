@@ -153,7 +153,7 @@ IF tank_level > high_high_limit THEN alarm_high_high = true
 
 ## 导航索引
 
-- 上一篇：[PLC 工程工作流深挖]()
-- 本章目录：[02_Automation]()
-- 下一篇：[SCADA 项目资料与配置深挖]()
+- 上一篇：[PLC 工程工作流深挖](PLC_Engineering_Workflow.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[SCADA 项目资料与配置深挖](SCADA_Project_Artifacts.md)
 

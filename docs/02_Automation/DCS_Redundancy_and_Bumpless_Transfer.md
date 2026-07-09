@@ -130,7 +130,7 @@ Standby Controller
 
 ## 导航索引
 
-- 上一篇：[DCS 系统]()
-- 本章目录：[02_Automation]()
-- 下一篇：[SCADA、HMI 与组态软件]()
+- 上一篇：[DCS 系统](DCS_Basics.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[SCADA、HMI 与组态软件](SCADA_HMI_and_Configuration.md)
 

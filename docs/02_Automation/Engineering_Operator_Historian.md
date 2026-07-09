@@ -123,7 +123,7 @@
 
 ## 导航索引
 
-- 上一篇：[SCADA、HMI 与组态软件]()
-- 本章目录：[02_Automation]()
-- 下一篇：[工业行业场景]()
+- 上一篇：[SCADA、HMI 与组态软件](SCADA_HMI_and_Configuration.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[工业行业场景](Industrial_Scenarios.md)
 

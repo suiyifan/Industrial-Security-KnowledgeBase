@@ -30,7 +30,7 @@
 
 ## 导航索引
 
-- 上一篇：[04 章术语表]()
-- 本章目录：[05_Industrial_System]()
-- 下一篇：[工业资产分类与价值判断]()
+- 上一篇：[04 章术语表](../04_Industrial_Protocol/Glossary.md)
+- 本章目录：[05_Industrial_System](README.md)
+- 下一篇：[工业资产分类与价值判断](Industrial_Asset_Taxonomy.md)
 

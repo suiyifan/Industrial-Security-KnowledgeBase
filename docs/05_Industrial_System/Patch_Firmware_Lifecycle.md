@@ -39,7 +39,7 @@
 
 ## 导航索引
 
-- 上一篇：[工业网关与安全网关]()
-- 本章目录：[05_Industrial_System]()
-- 下一篇：[系统加固与基线核查]()
+- 上一篇：[工业网关与安全网关](Industrial_Gateway_and_Security_Appliance.md)
+- 本章目录：[05_Industrial_System](README.md)
+- 下一篇：[系统加固与基线核查](System_Hardening_Baseline.md)
 

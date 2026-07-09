@@ -52,7 +52,7 @@
 
 ## 导航索引
 
-- 上一篇：[工业资产分类与价值判断]()
-- 本章目录：[05_Industrial_System]()
-- 下一篇：[操作员站、HMI 与 SCADA Server]()
+- 上一篇：[工业资产分类与价值判断](Industrial_Asset_Taxonomy.md)
+- 本章目录：[05_Industrial_System](README.md)
+- 下一篇：[操作员站、HMI 与 SCADA Server](Operator_HMI_SCADA_Security.md)
 

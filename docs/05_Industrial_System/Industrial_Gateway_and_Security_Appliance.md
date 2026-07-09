@@ -29,7 +29,7 @@
 
 ## 导航索引
 
-- 上一篇：[RTU、IED、远程站点与边缘设备]()
-- 本章目录：[05_Industrial_System]()
-- 下一篇：[工控系统补丁、固件与生命周期]()
+- 上一篇：[RTU、IED、远程站点与边缘设备](RTU_IED_Remote_Station.md)
+- 本章目录：[05_Industrial_System](README.md)
+- 下一篇：[工控系统补丁、固件与生命周期](Patch_Firmware_Lifecycle.md)
 

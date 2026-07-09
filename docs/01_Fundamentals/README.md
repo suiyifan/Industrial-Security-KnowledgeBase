@@ -50,7 +50,7 @@
 
 ## 导航索引
 
-- 上一篇：[Seed 知识点归类与整合计划]()
-- 本章目录：[01_Fundamentals]()
-- 下一篇：[01 章学习地图：计算机与安全基础]()
+- 上一篇：[Seed 知识点归类与整合计划](../00_Project/Seed_Knowledge_Classification.md)
+- 本章目录：[01_Fundamentals](README.md)
+- 下一篇：[01 章学习地图：计算机与安全基础](Learning_Map.md)
 

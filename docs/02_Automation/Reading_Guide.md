@@ -153,7 +153,7 @@
 
 ## 导航索引
 
-- 上一篇：[02 章术语表]()
-- 本章目录：[02_Automation]()
-- 下一篇：[03 Industrial Network：工业网络与边界安全]()
+- 上一篇：[02 章术语表](Glossary.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[03 Industrial Network：工业网络与边界安全](../03_Industrial_Network/README.md)
 

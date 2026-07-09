@@ -162,7 +162,7 @@
 
 ## 导航索引
 
-- 上一篇：[功能安全、SIS 与安全联锁]()
-- 本章目录：[02_Automation]()
-- 下一篇：[自动化知识如何服务工控安全]()
+- 上一篇：[功能安全、SIS 与安全联锁](Safety_SIS_and_Interlock.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[自动化知识如何服务工控安全](Automation_for_ICS_Security.md)
 

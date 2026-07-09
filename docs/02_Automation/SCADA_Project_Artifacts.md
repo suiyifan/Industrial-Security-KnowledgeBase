@@ -140,7 +140,7 @@ HMI 画面通常暴露工艺结构。
 
 ## 导航索引
 
-- 上一篇：[控制逻辑阅读方法]()
-- 本章目录：[02_Automation]()
-- 下一篇：[DCS 运行维护与安全关注点]()
+- 上一篇：[控制逻辑阅读方法](Control_Logic_Reading.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[DCS 运行维护与安全关注点](DCS_Operations_Deep_Dive.md)
 

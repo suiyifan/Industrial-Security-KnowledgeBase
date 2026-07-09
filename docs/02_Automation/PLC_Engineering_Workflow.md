@@ -199,7 +199,7 @@ Force 可以绕过输入条件，直接强制输出启动。
 
 ## 导航索引
 
-- 上一篇：[点表、变量与工程资料深挖]()
-- 本章目录：[02_Automation]()
-- 下一篇：[控制逻辑阅读方法]()
+- 上一篇：[点表、变量与工程资料深挖](Point_Table_and_Tags_Deep_Dive.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[控制逻辑阅读方法](Control_Logic_Reading.md)
 

@@ -26,7 +26,7 @@
 
 ## 导航索引
 
-- 上一篇：[系统风险案例化表达]()
-- 本章目录：[05_Industrial_System]()
-- 下一篇：[05 章术语表]()
+- 上一篇：[系统风险案例化表达](System_Risk_Case_Studies.md)
+- 本章目录：[05_Industrial_System](README.md)
+- 下一篇：[05 章术语表](Glossary.md)
 

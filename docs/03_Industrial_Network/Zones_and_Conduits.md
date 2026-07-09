@@ -101,7 +101,7 @@ SCADA Server -> PLC: Modbus TCP 502, read/write only if business required
 
 ## 导航索引
 
-- 上一篇：[Purdue 模型与工控分层]()
-- 本章目录：[03_Industrial_Network]()
-- 下一篇：[工业 DMZ 深入理解]()
+- 上一篇：[Purdue 模型与工控分层](Purdue_Model_and_Zones.md)
+- 本章目录：[03_Industrial_Network](README.md)
+- 下一篇：[工业 DMZ 深入理解](Industrial_DMZ.md)
 

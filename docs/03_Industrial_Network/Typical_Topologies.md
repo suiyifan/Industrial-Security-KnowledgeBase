@@ -140,7 +140,7 @@ DCS 控制网络
 
 ## 导航索引
 
-- 上一篇：[工业 DMZ 深入理解]()
-- 本章目录：[03_Industrial_Network]()
-- 下一篇：[通信矩阵与数据流分析]()
+- 上一篇：[工业 DMZ 深入理解](Industrial_DMZ.md)
+- 本章目录：[03_Industrial_Network](README.md)
+- 下一篇：[通信矩阵与数据流分析](Communication_Matrix.md)
 

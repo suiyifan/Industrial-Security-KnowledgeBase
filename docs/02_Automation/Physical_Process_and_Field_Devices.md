@@ -145,7 +145,7 @@ AO：阀门开度给定
 
 ## 导航索引
 
-- 上一篇：[工业自动化概览]()
-- 本章目录：[02_Automation]()
-- 下一篇：[控制理论入门：开环、闭环、PID]()
+- 上一篇：[工业自动化概览](Industrial_Automation_Overview.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[控制理论入门：开环、闭环、PID](Control_Theory_Basics.md)
 

@@ -143,7 +143,7 @@
 
 ## 导航索引
 
-- 上一篇：[自动化知识如何服务工控安全]()
-- 本章目录：[02_Automation]()
-- 下一篇：[点表、变量与工程资料深挖]()
+- 上一篇：[自动化知识如何服务工控安全](Automation_for_ICS_Security.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[点表、变量与工程资料深挖](Point_Table_and_Tags_Deep_Dive.md)
 

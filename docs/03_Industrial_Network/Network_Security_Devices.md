@@ -172,7 +172,7 @@ VPN 提供远程接入能力。
 
 ## 导航索引
 
-- 上一篇：[被动监测、流量镜像与工业 IDS]()
-- 本章目录：[03_Industrial_Network]()
-- 下一篇：[工业网络抓包分析方法]()
+- 上一篇：[被动监测、流量镜像与工业 IDS](Passive_Monitoring_and_IDS.md)
+- 本章目录：[03_Industrial_Network](README.md)
+- 下一篇：[工业网络抓包分析方法](Packet_Capture_Methodology.md)
 

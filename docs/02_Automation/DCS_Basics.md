@@ -112,7 +112,7 @@ DCS 通常有不同角色：
 
 ## 导航索引
 
-- 上一篇：[PLC Runtime、扫描周期与内存模型深挖]()
-- 本章目录：[02_Automation]()
-- 下一篇：[DCS 冗余与无扰切换]()
+- 上一篇：[PLC Runtime、扫描周期与内存模型深挖](PLC_Runtime_Memory_Model.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[DCS 冗余与无扰切换](DCS_Redundancy_and_Bumpless_Transfer.md)
 

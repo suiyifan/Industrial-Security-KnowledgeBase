@@ -180,7 +180,7 @@ PID 参数会影响系统响应：
 
 ## 导航索引
 
-- 上一篇：[控制理论入门：开环、闭环、PID]()
-- 本章目录：[02_Automation]()
-- 下一篇：[4~20mA、I/O 与真实世界连接]()
+- 上一篇：[控制理论入门：开环、闭环、PID](Control_Theory_Basics.md)
+- 本章目录：[02_Automation](README.md)
+- 下一篇：[4~20mA、I/O 与真实世界连接](Analog_Signal_and_IO_Deep_Dive.md)
 

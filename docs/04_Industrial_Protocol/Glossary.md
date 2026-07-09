@@ -58,7 +58,7 @@ OPC UA 地址空间中的节点。
 
 ## 导航索引
 
-- 上一篇：[04 章面试问答]()
-- 本章目录：[04_Industrial_Protocol]()
-- 下一篇：[05 Industrial System：工业系统与关键资产]()
+- 上一篇：[04 章面试问答](Interview_QA.md)
+- 本章目录：[04_Industrial_Protocol](README.md)
+- 下一篇：[05 Industrial System：工业系统与关键资产](../05_Industrial_System/README.md)
 
