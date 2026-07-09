@@ -176,7 +176,7 @@ PID 包括：
 
 ## 导航索引
 
-- 上一篇：[工业现场与物理过程](Physical_Process_and_Field_Devices.md)
-- 本章目录：[02_Automation](README.md)
-- 下一篇：[控制理论深挖：从闭环稳定到攻击影响](Control_Theory_Deep_Dive.md)
+- 上一篇：[工业现场与物理过程]()
+- 本章目录：[02_Automation]()
+- 下一篇：[控制理论深挖：从闭环稳定到攻击影响]()
 

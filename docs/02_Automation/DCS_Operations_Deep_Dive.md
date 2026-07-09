@@ -136,7 +136,7 @@ DCS、历史库、报警服务器、操作员站需要时间一致。
 
 ## 导航索引
 
-- 上一篇：[SCADA 项目资料与配置深挖](SCADA_Project_Artifacts.md)
-- 本章目录：[02_Automation](README.md)
-- 下一篇：[资产访谈与现场调研问题清单](Asset_Interview_Checklist.md)
+- 上一篇：[SCADA 项目资料与配置深挖]()
+- 本章目录：[02_Automation]()
+- 下一篇：[资产访谈与现场调研问题清单]()
 

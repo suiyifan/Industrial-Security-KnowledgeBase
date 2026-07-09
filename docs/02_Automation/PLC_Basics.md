@@ -167,7 +167,7 @@ PLC 安全风险经常来自通信接口：
 
 ## 导航索引
 
-- 上一篇：[4~20mA、I/O 与真实世界连接](Analog_Signal_and_IO_Deep_Dive.md)
-- 本章目录：[02_Automation](README.md)
-- 下一篇：[PLC Runtime、扫描周期与内存模型深挖](PLC_Runtime_Memory_Model.md)
+- 上一篇：[4~20mA、I/O 与真实世界连接]()
+- 本章目录：[02_Automation]()
+- 下一篇：[PLC Runtime、扫描周期与内存模型深挖]()
 

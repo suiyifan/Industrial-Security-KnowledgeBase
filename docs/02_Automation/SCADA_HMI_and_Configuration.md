@@ -140,7 +140,7 @@ HMI 画面通常包含：
 
 ## 导航索引
 
-- 上一篇：[DCS 冗余与无扰切换](DCS_Redundancy_and_Bumpless_Transfer.md)
-- 本章目录：[02_Automation](README.md)
-- 下一篇：[工程站、操作员站与历史数据库](Engineering_Operator_Historian.md)
+- 上一篇：[DCS 冗余与无扰切换]()
+- 本章目录：[02_Automation]()
+- 下一篇：[工程站、操作员站与历史数据库]()
 
