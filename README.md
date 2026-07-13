@@ -13,10 +13,11 @@
 ## How to Use
 
 1. 从 `docs/00_Project/Job_Profile.md` 了解目标岗位画像。
-2. 按 `docs/00_Project/Learning_Roadmap.md` 的 Sprint 顺序学习。
-3. 每学一个主题，用 `templates/Study_Note_Template.md` 记录。
-4. 每做一个实验，用 `templates/Lab_Report_Template.md` 固化过程和截图。
-5. 每次面试、复盘、提问后，把新增结论写入 `memory/` 或对应章节。
+2. 从 [全书总目录与章节大纲](./docs/00_Project/Book_Outline.md) 选择当前建设章节。
+3. 由 GPT 按章节大纲编写技术正文，Codex 负责整理入库、链接校验和 Git 更新。
+4. 每学一个主题，用 `templates/Study_Note_Template.md` 记录。
+5. 每做一个实验，用 `templates/Lab_Report_Template.md` 固化过程和截图。
+6. 每次面试、复盘、提问后，把新增结论写入 `memory/` 或对应章节。
 
 ## Writing Standard
 

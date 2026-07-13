@@ -1,14 +1,15 @@
-﻿# 00 Project：项目总纲
+# 00 Project：项目总纲
 
 本章用于记录岗位画像、学习路线、能力矩阵、写作规范和知识库维护规则。
 
 ## 学习顺序
 
 1. [岗位画像：工控安全分析](./Job_Profile.md)
-2. [学习路线：11 个 Sprint](./Learning_Roadmap.md)
-3. [能力矩阵](./Capability_Matrix.md)
-4. [知识库更新工作流](./Update_Workflow.md)
-5. [Seed 知识点归类与整合计划](./Seed_Knowledge_Classification.md)
+2. [全书总目录与章节大纲](./Book_Outline.md)
+3. [学习路线：11 个 Sprint](./Learning_Roadmap.md)
+4. [能力矩阵](./Capability_Matrix.md)
+5. [知识库更新工作流](./Update_Workflow.md)
+6. [Seed 知识点归类与整合计划](./Seed_Knowledge_Classification.md)
 
 <!-- NAVIGATION_INDEX -->
 
