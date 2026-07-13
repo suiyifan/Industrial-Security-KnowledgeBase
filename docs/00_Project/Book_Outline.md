@@ -101,24 +101,28 @@ Codex 默认执行：确认目标文件、保留有效技术内容、统一 Mark
 
 ## 五、第二篇：自动化、控制理论与工业现场
 
-目标：理解网络与软件行为如何映射为真实控制行为和物理后果。本篇是全书核心基础。
+目标：建立从物理过程、测量与执行、控制算法、控制器运行时、监控操作到安全保护的完整工程模型，能够把网络与软件行为映射为控制状态变化、生产连续性影响和真实物理后果。本篇不是自动化名词速查，而是后续工业网络、协议分析、漏洞研究、事件调查和风险评估共同依赖的 OT 语义基础。
 
 | 编号 | 章节 | 目标文件 | 核心范围 | 状态 |
 | --- | --- | --- | --- | --- |
-| 2.1 | 工业自动化系统全景 | `docs/02_Automation/Industrial_Automation_Overview.md` | 现场层、控制层、监控层、生产管理层及角色 | 待编写 |
-| 2.2 | 物理过程、传感器与执行器 | `docs/02_Automation/Physical_Process_and_Field_Devices.md` | 温度、压力、流量、液位、电机、阀门及故障模式 | 待编写 |
-| 2.3 | 模拟量、数字量与 I/O 链路 | `docs/02_Automation/Analog_Signal_and_IO_Deep_Dive.md` | 4–20 mA、开关量、量程转换、I/O 映像与诊断 | 待编写 |
-| 2.4 | 控制理论与反馈控制基础 | `docs/02_Automation/Control_Theory_Basics.md` | 开环、闭环、稳定性、动态响应、扰动与反馈 | 待编写 |
-| 2.5 | PID 控制与工程整定 | `docs/02_Automation/Control_Theory_Deep_Dive.md` | P/I/D、整定、饱和、积分抗饱和、异常操纵影响 | 待编写 |
-| 2.6 | PLC 原理、扫描周期与程序组织 | `docs/02_Automation/PLC_Basics.md` | CPU、I/O、扫描周期、任务、程序块、运行模式 | 待编写 |
-| 2.7 | PLC 运行时与内存模型 | `docs/02_Automation/PLC_Runtime_Memory_Model.md` | 输入/输出映像、变量区、数据块、保持区、状态变化 | 待编写 |
-| 2.8 | PLC 工程组态与程序下装 | `docs/02_Automation/PLC_Engineering_Workflow.md` | 建项、硬件组态、编译、下载、在线监控与变更 | 待编写 |
-| 2.9 | 控制逻辑阅读方法 | `docs/02_Automation/Control_Logic_Reading.md` | 梯形图、功能块、结构化文本、顺控与联锁阅读 | 待编写 |
-| 2.10 | DCS 架构、运行与冗余 | `docs/02_Automation/DCS_Operations_Deep_Dive.md` | 控制站、操作站、工程站、服务器、冗余切换 | 待编写 |
-| 2.11 | SCADA、HMI 与组态工程 | `docs/02_Automation/SCADA_HMI_and_Configuration.md` | 画面、变量、报警、趋势、脚本、配方与权限 | 待编写 |
-| 2.12 | 点表、标签与过程数据语义 | `docs/02_Automation/Point_Table_and_Tags_Deep_Dive.md` | 点名、地址、量程、质量码、报警与跨层映射 | 待编写 |
-| 2.13 | SIS、安全联锁与失效安全 | `docs/02_Automation/Safety_SIS_and_Interlock.md` | BPCS/SIS 边界、联锁、旁路、SIL、独立保护层 | 待编写 |
-| 2.14 | 自动化系统攻击面与物理影响 | `docs/02_Automation/Automation_Attack_Surface.md` | 工程站、控制器、现场设备、闭环攻击与后果 | 待编写 |
+| 2.1 | 工业自动化系统全景 | `docs/02_Automation/Industrial_Automation_Overview.md` | 现场层、控制层、监控层、生产管理层及角色 | 已校验 |
+| 2.2 | 物理过程、传感器与执行器 | `docs/02_Automation/Physical_Process_and_Field_Devices.md` | 温度、压力、流量、液位、电机、阀门及故障模式 | 已校验 |
+| 2.3 | 模拟量、数字量与 I/O 链路 | `docs/02_Automation/Analog_Signal_and_IO_Deep_Dive.md` | 4–20 mA、开关量、量程转换、I/O 映像与诊断 | 已校验 |
+| 2.4 | 控制理论与反馈控制基础 | `docs/02_Automation/Control_Theory_Basics.md` | 开环、闭环、稳定性、动态响应、扰动与反馈 | 已校验 |
+| 2.5 | PID 控制与工程整定 | `docs/02_Automation/Control_Theory_Deep_Dive.md` | P/I/D、整定、饱和、积分抗饱和、异常操纵影响 | 已校验 |
+| 2.6 | 顺序控制、状态机与批次过程 | `docs/02_Automation/Sequential_Batch_and_State_Control.md` | 步序、状态迁移、配方、模式、许可条件、异常恢复与竞态 | 已校验 |
+| 2.7 | PLC 原理、扫描周期与程序组织 | `docs/02_Automation/PLC_Basics.md` | CPU、I/O、扫描周期、周期/事件任务、程序块与运行模式 | 已校验 |
+| 2.8 | PLC 运行时与内存模型 | `docs/02_Automation/PLC_Runtime_Memory_Model.md` | 过程映像、变量区、数据块、保持区、通信变量与状态变化 | 已校验 |
+| 2.9 | PLC 工程组态、程序下装与变更 | `docs/02_Automation/PLC_Engineering_Workflow.md` | 建项、硬件组态、编译、下载、在线监控、强制与版本治理 | 已校验 |
+| 2.10 | 控制逻辑阅读与危险动作识别 | `docs/02_Automation/Control_Logic_Reading.md` | LD/FBD/ST/SFC、启停、模式、联锁、报警、通信与写点追踪 | 已校验 |
+| 2.11 | DCS 架构、运行、冗余与工程变更 | `docs/02_Automation/DCS_Operations_Deep_Dive.md` | 控制站、操作站、工程站、服务器、控制回路、冗余切换与变更 | 已校验 |
+| 2.12 | SCADA、HMI 与组态工程 | `docs/02_Automation/SCADA_HMI_and_Configuration.md` | 遥测遥控、画面、变量、脚本、配方、通信驱动与权限 | 已校验 |
+| 2.13 | 操作员站、报警、趋势与历史数据 | `docs/02_Automation/Engineering_Operator_Historian.md` | 操作语义、报警生命周期、趋势、历史库、时间与证据关联 | 已校验 |
+| 2.14 | 点表、标签与过程数据语义 | `docs/02_Automation/Point_Table_and_Tags_Deep_Dive.md` | 点名、地址、量程、质量码、报警、单位与跨层映射 | 已校验 |
+| 2.15 | 电机、电气控制与变频驱动 | `docs/02_Automation/Motor_Drives_and_Electrical_Control.md` | 接触器、继电器、MCC、VFD、启停、保护、转速与安全影响 | 已校验 |
+| 2.16 | SIS、安全联锁与失效安全 | `docs/02_Automation/Safety_SIS_and_Interlock.md` | BPCS/SIS 边界、联锁、旁路、SIL、独立保护层与验证 | 已校验 |
+| 2.17 | 典型工业过程与行业控制场景 | `docs/02_Automation/Industrial_Scenarios.md` | 水处理、石化、电力、冶金、离散制造的过程变量与关键约束 | 已校验 |
+| 2.18 | 自动化系统攻击面与物理影响 | `docs/02_Automation/Automation_Attack_Surface.md` | 工程站、控制器、现场设备、闭环攻击、恢复与后果分级 | 已校验 |
 
 ## 六、第三篇：工业网络与安全边界
 

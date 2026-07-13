@@ -1,78 +1,110 @@
-﻿# 02 Automation：工业自动化与控制系统
+# 02 Automation：自动化、控制理论与工业现场
 
-本章开始进入工控安全的核心地带。01 章解决“计算机和网络怎么工作”，02 章要解决“工业现场到底在控制什么、谁在控制、怎么控制、出问题会造成什么后果”。
+01 篇解释计算机、操作系统和网络如何运行；02 篇进一步回答工业系统究竟在控制什么、控制器如何作出决定，以及一次数字世界的异常怎样演化为生产和安全后果。对工控安全工程师而言，自动化知识不是背景材料，而是解释协议字段、识别危险写操作、判断漏洞影响和制定恢复顺序所需的业务语义。
 
-工控安全研究不能只盯漏洞编号。你要能把漏洞放回工业场景里理解：
+本篇采用一条贯穿始终的分析链：
 
-- 它影响的是工程站、操作员站、HMI、PLC、DCS、SCADA，还是历史数据库？
-- 它可能导致信息泄露、误操作、控制逻辑篡改、设备停机，还是安全联锁失效？
-- 它发生在离散制造、电力、石油石化、冶金、水处理，还是轨道交通场景？
-- 它是 IT 风险，还是会转化为 OT 侧生产风险和安全风险？
+```text
+物理过程
+  ↓ 被测量
+传感器 / 变送器 → I/O → 控制器 → 控制算法与状态机
+                                      ↓
+操作员 / HMI / 工程站 ← 报警、趋势、历史数据 ← 过程状态
+                                      ↓
+                             I/O → 执行器 → 物理过程
 
-## 学习顺序
+独立保护层 / SIS 在危险条件下执行保护动作
+```
+
+安全分析必须沿这条链同时追踪四类对象：
+
+- **数据流**：PV、SP、MV、质量码、报警、趋势和历史记录如何传递；
+- **控制流**：程序、任务、模式、许可条件和联锁如何决定动作；
+- **状态流**：设备、顺控、控制器、冗余系统和工艺过程如何迁移状态；
+- **能量流**：泵、阀、电机、加热器等最终如何改变压力、流量、温度和机械运动。
+
+## 本篇学习目标
+
+完成本篇后，应能够：
+
+- 根据工艺描述画出传感器—控制器—执行器—过程的闭环；
+- 区分 PLC、DCS、SCADA、HMI、RTU、工程站、操作员站和历史服务器的职责；
+- 解释模拟量、数字量、脉冲量、总线变量从现场到应用的完整转换链；
+- 使用时间常数、滞后、增益、稳定性和扰动解释过程动态；
+- 分析 PID、顺控、状态机、模式切换、联锁和批次配方的正常与异常行为；
+- 解释 PLC 扫描周期、任务调度、内存区、程序组织、工程下载和在线变更；
+- 解释 DCS 冗余、SCADA 遥测遥控、HMI 组态、报警、趋势和历史数据的工程实现；
+- 识别电机、MCC、VFD、阀门和安全仪表系统中的高后果控制动作；
+- 将网络请求、变量写入、逻辑修改或反馈欺骗映射到具体工业后果；
+- 用工程证据而不是抽象结论完成风险描述、面试回答和实验复盘。
+
+## 核心章节顺序
 
 1. [学习地图](./Learning_Map.md)
-2. [工业自动化概览](./Industrial_Automation_Overview.md)
-3. [工业现场与物理过程](./Physical_Process_and_Field_Devices.md)
-4. [控制理论入门：开环、闭环、PID](./Control_Theory_Basics.md)
-5. [控制理论深挖：从闭环稳定到攻击影响](./Control_Theory_Deep_Dive.md)
-6. [4~20mA、I/O 与真实世界连接](./Analog_Signal_and_IO_Deep_Dive.md)
-7. [PLC 系统](./PLC_Basics.md)
-8. [PLC Runtime、扫描周期与内存模型深挖](./PLC_Runtime_Memory_Model.md)
-9. [DCS 系统](./DCS_Basics.md)
-10. [DCS 冗余与无扰切换](./DCS_Redundancy_and_Bumpless_Transfer.md)
-11. [SCADA、HMI 与组态软件](./SCADA_HMI_and_Configuration.md)
-12. [工程站、操作员站与历史数据库](./Engineering_Operator_Historian.md)
-13. [工业行业场景](./Industrial_Scenarios.md)
-14. [功能安全、SIS 与安全联锁](./Safety_SIS_and_Interlock.md)
-15. [自动化系统攻击面](./Automation_Attack_Surface.md)
-16. [自动化知识如何服务工控安全](./Automation_for_ICS_Security.md)
-17. [现场项目视角：一次工控安全评估怎么展开](./Field_Project_View.md)
-18. [点表、变量与工程资料深挖](./Point_Table_and_Tags_Deep_Dive.md)
-19. [PLC 工程工作流深挖](./PLC_Engineering_Workflow.md)
-20. [控制逻辑阅读方法](./Control_Logic_Reading.md)
-21. [SCADA 项目资料与配置深挖](./SCADA_Project_Artifacts.md)
-22. [DCS 运行维护与安全关注点](./DCS_Operations_Deep_Dive.md)
-23. [资产访谈与现场调研问题清单](./Asset_Interview_Checklist.md)
-24. [工控风险案例化表达](./Risk_Case_Studies.md)
-25. [面试项目表达素材](./Project_Style_Interview_Stories.md)
-26. [面试问答](./Interview_QA.md)
-27. [术语表](./Glossary.md)
+2. [工业自动化系统全景](./Industrial_Automation_Overview.md)
+3. [物理过程、传感器与执行器](./Physical_Process_and_Field_Devices.md)
+4. [模拟量、数字量与 I/O 链路](./Analog_Signal_and_IO_Deep_Dive.md)
+5. [控制理论与反馈控制基础](./Control_Theory_Basics.md)
+6. [PID 控制与工程整定](./Control_Theory_Deep_Dive.md)
+7. [顺序控制、状态机与批次过程](./Sequential_Batch_and_State_Control.md)
+8. [PLC 原理、扫描周期与程序组织](./PLC_Basics.md)
+9. [PLC 运行时与内存模型](./PLC_Runtime_Memory_Model.md)
+10. [PLC 工程组态、程序下装与变更](./PLC_Engineering_Workflow.md)
+11. [控制逻辑阅读与危险动作识别](./Control_Logic_Reading.md)
+12. [DCS 架构、运行、冗余与工程变更](./DCS_Operations_Deep_Dive.md)
+13. [SCADA、HMI 与组态工程](./SCADA_HMI_and_Configuration.md)
+14. [操作员站、报警、趋势与历史数据](./Engineering_Operator_Historian.md)
+15. [点表、标签与过程数据语义](./Point_Table_and_Tags_Deep_Dive.md)
+16. [电机、电气控制与变频驱动](./Motor_Drives_and_Electrical_Control.md)
+17. [SIS、安全联锁与失效安全](./Safety_SIS_and_Interlock.md)
+18. [典型工业过程与行业控制场景](./Industrial_Scenarios.md)
+19. [自动化系统攻击面与物理影响](./Automation_Attack_Surface.md)
 
-## 本章完成标准
+## 篇级扩展材料
 
-完成本章后，你应该能做到：
+核心章节建立统一工程模型，以下材料用于项目迁移、复习和面试：
 
-- 画出一个典型工业控制系统的分层架构。
-- 解释 PLC、DCS、SCADA、HMI、工程站、操作员站的区别。
-- 解释传感器、执行器、控制器、控制逻辑之间的关系。
-- 说清楚 PID 控制的基本思想。
-- 理解工程下载、变量点表、报警、趋势、历史数据库等概念。
-- 从安全角度分析工程站、HMI、PLC、工业网关的攻击面。
-- 把一个漏洞的影响翻译成工业生产影响。
-- 能说出一次工控安全评估会看哪些资料、问哪些问题、检查哪些配置。
-- 能用点表、控制逻辑、报警、趋势、工程下载等细节解释漏洞影响。
-- 面试时能把“我学过概念”升级成“我知道项目现场怎么分析”。
+- [DCS 基础速查](./DCS_Basics.md)
+- [DCS 冗余与无扰切换专题](./DCS_Redundancy_and_Bumpless_Transfer.md)
+- [SCADA 项目资料与配置专题](./SCADA_Project_Artifacts.md)
+- [自动化知识如何服务工控安全](./Automation_for_ICS_Security.md)
+- [现场项目视角](./Field_Project_View.md)
+- [资产访谈与现场调研清单](./Asset_Interview_Checklist.md)
+- [工控风险案例化表达](./Risk_Case_Studies.md)
+- [项目式面试表达素材](./Project_Style_Interview_Stories.md)
+- [面试问答](./Interview_QA.md)
+- [阅读、复习与验收指南](./Reading_Guide.md)
+- [术语表](./Glossary.md)
 
-## 面向岗位的重点
+## 五层掌握标准
 
-| 岗位要求 | 02 章对应能力 |
-|---|---|
-| 工控系统软件、协议、设备安全研究 | 理解工业控制系统组成和控制链路 |
-| 协议逆向、脆弱性挖掘 | 理解协议背后的真实工业操作 |
-| 安全测试、评估、审计 | 能识别关键资产、关键链路、关键风险 |
-| 安全分析报告、调研报告 | 能把技术漏洞写成工业风险 |
-| 面向电力、石油、石化、冶金、水处理等客户 | 理解典型行业场景差异 |
+每个重要知识点都应通过以下五层验收：
 
-## 深入学习建议
+1. **原理层**：解释机制为什么存在，以及它解决了什么工程约束；
+2. **实现层**：指出机制在仪表、控制器、工程软件和现场操作中的实现位置；
+3. **流动层**：画出数据流、控制流、状态流与能量流；
+4. **安全层**：说明攻击或故障改变了什么状态、跨越了什么保护边界、可能造成什么后果；
+5. **证据层**：能用工程文件、在线变量、仿真趋势、抓包、日志或配置差异证明判断。
 
-如果目标是面试，不要只背 PLC、DCS、SCADA 的定义。更像项目经历的表达来自这些细节：
+只会背诵“PLC 按扫描周期运行”不算掌握。应进一步说明输入映像何时更新、程序何时读取、输出何时刷新、通信任务怎样影响时序，以及强制变量或任务超时如何改变真实输出。
 
-- 你知道工程站里可能有什么工程文件、点表、通信配置和下载记录。
-- 你知道 HMI 画面背后绑定变量点，按钮可能对应写变量或脚本动作。
-- 你知道 PLC 的 Force、Run/Stop、上传/下载、在线监控都是高风险动作。
-- 你知道报警、趋势、历史库不是装饰，而是事故追溯和异常判断证据。
-- 你知道评估时要先问清楚资产、网络区域、远程运维、工程变更、备份恢复。
+## 安全实验边界
+
+- 所有写变量、下装程序、强制 I/O、切换模式和发送控制命令的实验只允许在仿真器、实验 PLC 或明确授权的隔离环境完成；
+- 不在生产控制网试探未知地址、扫描控制器、修改设定值或验证联锁；
+- 实验前记录初始状态、恢复点和停止条件，实验后验证控制器模式、强制表、报警旁路和工程版本均已恢复；
+- 安全结论必须区分“理论可影响”“实验环境已验证”和“生产环境实际证据”。
+
+## 本篇完成标准
+
+完成学习后，至少应交付以下成果：
+
+- 一张包含 BPCS、SIS、操作监控与工程管理的自动化系统图；
+- 一份从现场信号到 HMI 标签的跨层数据字典；
+- 一个液位或温度闭环仿真，含正常扰动与异常输入趋势；
+- 一个 PLC 顺控或状态机小程序，含模式、许可、联锁、报警和恢复；
+- 一份控制逻辑安全审阅记录，标出危险写点和物理后果；
+- 一份工业场景风险链：入口—控制动作—过程偏移—保护响应—业务后果—恢复证据。
 
 <!-- NAVIGATION_INDEX -->
 
@@ -80,7 +112,6 @@
 
 ## 导航索引
 
-- 上一篇：[01 章术语表](../01_Fundamentals/Glossary.md)
-- 本章目录：[02_Automation](README.md)
-- 下一篇：[02 章学习地图](Learning_Map.md)
-
+- 上一篇：[01 篇术语表](../01_Fundamentals/Glossary.md)
+- 本篇目录：[02_Automation](README.md)
+- 下一篇：[02 篇学习地图](Learning_Map.md)
