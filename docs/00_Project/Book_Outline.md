@@ -128,16 +128,20 @@ Codex 默认执行：确认目标文件、保留有效技术内容、统一 Mark
 
 | 编号 | 章节 | 目标文件 | 核心范围 | 状态 |
 | --- | --- | --- | --- | --- |
-| 3.1 | 工业网络与典型拓扑 | `docs/03_Industrial_Network/Industrial_Network_Overview.md` | 控制网、监控网、管理网、现场总线与拓扑 | 待编写 |
-| 3.2 | Purdue 模型、区域与通道 | `docs/03_Industrial_Network/Purdue_Model_and_Zones.md` | 层级、Zone/Conduit、信任边界与模型局限 | 待编写 |
-| 3.3 | 工业 DMZ 与跨区数据交换 | `docs/03_Industrial_Network/Industrial_DMZ.md` | 跳板、代理、历史镜像、文件交换、单向传输 | 待编写 |
-| 3.4 | 交换机、路由与 VLAN | `docs/03_Industrial_Network/Switch_Router_VLAN.md` | 二三层通信、广播域、环网、ACL 与误配置 | 待编写 |
-| 3.5 | 工业防火墙与通信矩阵 | `docs/03_Industrial_Network/Industrial_Firewall_ACL.md` | 白名单、方向、端口、协议命令与规则验证 | 待编写 |
-| 3.6 | 远程运维与供应商接入 | `docs/03_Industrial_Network/Remote_Access_and_Vendor_Maintenance.md` | VPN、堡垒机、临时授权、审计、第三方风险 | 待编写 |
-| 3.7 | 工业网络抓包方法论 | `docs/03_Industrial_Network/Packet_Capture_Methodology.md` | TAP、镜像口、抓包点、时间同步与证据链 | 待编写 |
-| 3.8 | 被动监测、资产识别与 IDS | `docs/03_Industrial_Network/Passive_Monitoring_and_IDS.md` | 被动发现、基线、规则、异常检测与安全部署 | 待编写 |
-| 3.9 | 工业攻击路径建模 | `docs/03_Industrial_Network/Attack_Path_Modeling.md` | 初始入口、横向移动、控制区到达与屏障分析 | 待编写 |
-| 3.10 | 网关、协议转换与边界风险 | `docs/03_Industrial_Network/Gateway_Protocol_Conversion.md` | 串口/以太网、协议代理、语义转换与失真 | 待编写 |
+| 3.1 | 工业网络架构、数据流与典型拓扑 | `docs/03_Industrial_Network/Industrial_Network_Overview.md` | 控制闭环、网络角色、流量类型、拓扑、性能与安全目标 | 已校验 |
+| 3.2 | Purdue 模型、区域与通道 | `docs/03_Industrial_Network/Purdue_Model_and_Zones.md` | 层级、Zone/Conduit、信任边界、模型局限与资产归域 | 已校验 |
+| 3.3 | 工业以太网交换、VLAN 与二层安全 | `docs/03_Industrial_Network/Switch_Router_VLAN.md` | 以太网、ARP、MAC 学习、802.1Q、环路、组播与二层攻击 | 已校验 |
+| 3.4 | IP 寻址、路由与工业网络基础服务 | `docs/03_Industrial_Network/IP_Routing_and_Network_Services.md` | IPv4/CIDR、路由、ACL、NAT、DHCP、DNS、NTP、组播与 QoS | 已校验 |
+| 3.5 | 工业网络冗余、收敛与时间同步 | `docs/03_Industrial_Network/Network_Redundancy_and_Time_Synchronization.md` | 环网、冗余网关、PRP/HSR、收敛、PTP/NTP 与故障验证 | 已校验 |
+| 3.6 | 工业 DMZ 与跨区数据交换 | `docs/03_Industrial_Network/Industrial_DMZ.md` | 跳板、代理、历史镜像、文件交换、单向传输与双边界 | 已校验 |
+| 3.7 | 工业防火墙与通信矩阵 | `docs/03_Industrial_Network/Industrial_Firewall_ACL.md` | 白名单、方向、状态、协议命令、规则验证与变更治理 | 已校验 |
+| 3.8 | 远程运维与供应商接入 | `docs/03_Industrial_Network/Remote_Access_and_Vendor_Maintenance.md` | VPN、堡垒机、临时授权、审计、第三方风险与退出检查 | 已校验 |
+| 3.9 | 工业网络抓包与证据方法论 | `docs/03_Industrial_Network/Packet_Capture_Methodology.md` | TAP、镜像口、抓包点、丢包、时间同步、会话重组与证据链 | 已校验 |
+| 3.10 | 被动监测、资产识别与工业 IDS | `docs/03_Industrial_Network/Passive_Monitoring_and_IDS.md` | 被动发现、基线、语义规则、异常检测、部署与响应边界 | 已校验 |
+| 3.11 | 网关、协议转换与边界风险 | `docs/03_Industrial_Network/Gateway_Protocol_Conversion.md` | 串口/以太网、协议代理、地址映射、状态与质量语义失真 | 已校验 |
+| 3.12 | 无线、串口与现场总线接入 | `docs/03_Industrial_Network/Wireless_Serial_Fieldbus.md` | 工业无线、串口参数、总线仲裁、远程站点与介质安全 | 已校验 |
+| 3.13 | 工业攻击路径与屏障建模 | `docs/03_Industrial_Network/Attack_Path_Modeling.md` | 初始入口、身份与信任、横向移动、控制能力、物理后果和屏障 | 已校验 |
+| 3.14 | 工业网络评估、变更、恢复与验收 | `docs/03_Industrial_Network/Network_Assessment_and_Recovery.md` | 现场调研、配置审阅、非侵入验证、故障恢复、测试与交付 | 已校验 |
 
 ## 七、第四篇：工业协议分析
 
